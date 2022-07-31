@@ -15,6 +15,9 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'junit:junit:4.12'
+    implementation('org.projectlombok:lombok')
+    implementation('org.h2database:H2')
+    implementation('org.springframework.session:spring-session-jdbc')
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
